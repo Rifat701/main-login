@@ -1,0 +1,117 @@
+/* common css start */
+
+body {
+  padding: 0;
+  margin: 0 auto;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+
+/* common css end */
+
+/* main body start */
+
+#window {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: url(/asset/WhatsApp\ Image\ 2023-11-01\ at\ 23.47.06_436b563d.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  padding: 0 155px 0 0;
+}
+
+/* main body end */
+
+/* main box start */
+
+#window .main_box {
+  width: 420px;
+  height: 550px;
+  border-radius: 10px;
+  background: #fff;
+  overflow-x: hidden;
+}
+
+/* main box end */
+
+/* heading start */
+
+.heading {
+  padding: 13px 0 0 0;
+}
+
+.heading a {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0 0 10px;
+}
+.heading img {
+  width: 120px;
+}
+
+.heading .content h1,
+h5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.heading .content h1 {
+  color: #ed8c00;
+}
+.heading .content h5 {
+  color: #ed8c00;
+  padding: 0 0 30px 0;
+}
+
+/* heading end */
+
+/* form start */
+
+.email_input {
+  padding: 0 20px;
+}
+.email_input input {
+  border: 1px solid #ed8c00;
+}
+.form-control:focus {
+  box-shadow: none;
+  border-color: #ed8c00;
+}
+.pass_input {
+  padding: 14px 20px;
+}
+.pass_input input {
+  border: 1px solid #ed8c00;
+}
+.btn {
+  padding: 20px 0 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn a {
+  padding: 10px 162px;
+  background-color: #ed8c00;
+  color: #fff;
+  font-size: 20px;
+}
+.footer {
+  padding: 40px 0 0 0;
+  color: #434343;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* form end */
